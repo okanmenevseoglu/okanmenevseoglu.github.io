@@ -16,8 +16,9 @@ html {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: 180px !important;
-        width: 180px !important;
+        height: 140px !important;
+        width: 140px !important;
+        border-radius: 50%;
     }
 
     #header-grid-item-2 {
@@ -28,7 +29,21 @@ html {
         margin-right: auto !important;
     }
 
-    #contact-info {
+    #name-title {
+        line-height: 80%;
+    }
+
+    #full-title {
+        font-size: 20px !important;
+    }
+
+    #contact {
+        margin-top: -12px;
+        line-height: normal !important;
+    }
+
+    #email, #phone {
+        margin-top: -14px;
         line-height: normal !important;
     }
 
@@ -56,6 +71,10 @@ html {
 
     .section-title {
         font-size: 22px;
+    }
+
+    #footer {
+        display: none;
     }
 }
 
