@@ -1,0 +1,131 @@
+html {
+    font-family: Calibri, sans-serif;
+}
+
+#header {
+    background-color: #00579a;
+    color: white;
+}
+
+#header-grid-container {
+    padding-left: 4%;
+    padding-top: 4%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 2%;
+    grid-gap: 2%;
+    justify-content: left;
+}
+
+#header-grid-item-1 {
+    grid-column: 1;
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+}
+
+#header-grid-item-2 {
+    margin: auto;
+    line-height: 50%;
+    grid-column: 2;
+}
+
+@media only screen and (max-width: 1000px) {
+    #header-extension {
+        display: none;
+    }
+
+    #header-grid-item-1 {
+        display: none !important;
+    }
+
+    #contact-info {
+        line-height: normal;
+    }
+
+    .duration, .technologies {
+        padding-left: 0 !important;
+        margin-top: -10px;
+    }
+
+    .section-list > li > ul {
+        padding-left: 2px !important;
+        list-style-type: none !important;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+}
+
+#full-name {
+    font-weight: bolder;
+}
+
+#full-title {
+    font-size: 140%;
+    font-weight: lighter;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#header-extension {
+    margin-top: -1px;
+    border-left: 97vw solid transparent;
+    border-top: 110px solid #00579a;
+}
+
+.body-grid-container {
+    margin-top: -2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1%;
+}
+
+.body-grid-item1 {
+    grid-column: 1;
+}
+
+.body-grid-item2 {
+    grid-column: 2;
+}
+
+.section-title {
+    font-weight: 500;
+}
+
+.icon {
+    color: #00579a;
+    padding-right: 1%;
+}
+
+.section-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section-list > li > ul {
+    list-style-type: square;
+}
+
+.section-list > li > h3 {
+    font-weight: bold;
+    color: #00579A;
+}
+
+.duration, .technologies {
+    padding-left: 25px;
+    margin-top: -10px;
+}
+
+#languages {
+    list-style-type: square;
+}
+
+#footer {
+    border-right: 97vw solid transparent;
+    border-bottom: 110px solid #00579a;
+}
