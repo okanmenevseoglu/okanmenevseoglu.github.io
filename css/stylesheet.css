@@ -75,14 +75,15 @@ a:link, a:visited {
 #header-extension {
     margin-top: -1px;
     border-left: 97vw solid transparent;
-    border-top: 110px solid #00579a;
+    border-top: 100px solid #00579a;
 }
 
 .body-grid-container {
     margin-top: -2%;
+    margin-left: 1%;
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 1%;
+    grid-gap: 4%;
 }
 
 .body-grid-item1 {
@@ -94,7 +95,7 @@ a:link, a:visited {
 }
 
 .section-title {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .icon {
@@ -116,9 +117,19 @@ a:link, a:visited {
     color: #00579A;
 }
 
-.duration, .technologies {
+.element-description {
+    line-height: 150%;
+}
+
+.duration {
     padding-left: 25px;
     margin-top: -10px;
+}
+
+.technologies {
+    padding-left: 25px;
+    margin-top: -10px;
+    line-height: 150%;
 }
 
 #languages {
