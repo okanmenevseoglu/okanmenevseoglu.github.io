@@ -2,6 +2,63 @@ html {
     font-family: Calibri, sans-serif;
 }
 
+@media only screen and (max-width: 1000px) {
+    #header {
+        text-align: center;
+    }
+
+    #header-grid-container {
+        display: inline-block !important;
+        text-align: center;
+    }
+
+    #header-grid-item-1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px !important;
+        width: 180px !important;
+    }
+
+    #header-grid-item-2 {
+        display: inline-block;
+        line-height: normal !important;
+        text-align: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    #contact-info {
+        line-height: normal !important;
+    }
+
+    #header-extension {
+        display: none;
+    }
+
+    #body-container {
+        display: block !important;
+    }
+
+    .body-grid-container {
+        display: contents !important;
+    }
+
+    .duration, .technologies {
+        padding-left: 0 !important;
+        margin-top: -10px;
+    }
+
+    .section-list > li > ul {
+        padding-left: 2px;
+        list-style-type: none;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+}
+
 #header {
     background-color: #00579a;
     color: white;
@@ -17,45 +74,17 @@ html {
     justify-content: left;
 }
 
-#header-grid-item-1 {
-    grid-column: 1;
-    max-width: 240px;
-    width: 100%;
-    height: auto;
-}
-
 #header-grid-item-2 {
     margin: auto;
     line-height: 50%;
     grid-column: 2;
 }
 
-@media only screen and (max-width: 1000px) {
-    #header-extension {
-        display: none;
-    }
-
-    #header-grid-item-1 {
-        display: none !important;
-    }
-
-    #contact-info {
-        line-height: normal;
-    }
-
-    .duration, .technologies {
-        padding-left: 0 !important;
-        margin-top: -10px;
-    }
-
-    .section-list > li > ul {
-        padding-left: 2px !important;
-        list-style-type: none !important;
-    }
-
-    .section-title {
-        font-size: 20px;
-    }
+#header-grid-item-1 {
+    grid-column: 1;
+    max-width: 240px;
+    width: 100%;
+    height: auto;
 }
 
 #full-name {
