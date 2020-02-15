@@ -94,6 +94,10 @@ a:link, a:visited {
     grid-column: 2;
 }
 
+hr {
+    border-color: #00579a;
+}
+
 .section-title {
     font-weight: 600;
 }
