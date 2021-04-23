@@ -37,6 +37,10 @@ html {
         font-size: 20px !important;
     }
 
+    #experience {
+        font-size: 18px !important;;
+    }
+
     #contact {
         margin-top: -12px;
         line-height: normal !important;
@@ -111,8 +115,12 @@ html {
 }
 
 #full-title {
-    font-size: 140%;
+    font-size: 130%;
     font-weight: lighter;
+}
+
+#experience {
+    font-size: 120%;
 }
 
 a:link, a:visited {
